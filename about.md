@@ -16,6 +16,8 @@ We craft multiplatform, multilingual apps that transcend borders and connect wor
 
 🗣️ Speak your users' language, literally
 
+<br /><br /><br />
+
 ### Our Clients
 
 <img src="{{ site.baseurl }}/assets/clients.png" alt="Our Clients" />

@@ -1,10 +1,10 @@
 # Setup
 title: d5n5 Universal Apps
-url: https://localjo.github.io/d5n5-portfolio
+url: https://d5n5.com
 email: contact@d5n5.com
 # paginate: 1
-# paginate_path: "/d5n5-portfolio/page:num/"
-baseurl: "/d5n5-portfolio"
+# paginate_path: "/page:num/"
+baseurl: "/"
 permalink: pretty
 
 # Gems
@@ -45,10 +45,10 @@ version: 3.0.0
 nav:
 
   - title: Services
-    url: /d5n5-portfolio/services
+    url: /services
 
   - title: Portfolio
-    url: /d5n5-portfolio/portfolio
+    url: /portfolio
 
   - title: Work With Us
-    url: /d5n5-portfolio/contact
+    url: /contact

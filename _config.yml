@@ -1,8 +1,9 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: d5n5 Portfolio
+url: https://localjo.github.io/d5n5-portfolio
 paginate: 1
-baseurl: ""
+paginate_path: "/d5n5-portfolio/page:num/"
+baseurl: "/d5n5-portfolio"
 permalink: pretty
 
 # Gems
@@ -32,9 +33,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Jo Sprague
+  url: https://josprague.com/
+  email: josprague@d5n5.com
 
 # Custom vars
 version: 3.0.0
@@ -42,7 +43,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /archive
+    url: /d5n5-porfolio/archive
 
   - title: About
-    url: /about
+    url: /d5n5-portfolio/about

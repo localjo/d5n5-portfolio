@@ -16,6 +16,10 @@ We craft multiplatform, multilingual apps that transcend borders and connect wor
 
 🗣️ Speak your users' language, literally
 
+### Our Clients
+
+<img src="{{ site.baseurl }}/assets/clients.png" alt="Our Clients" />
+
 <p class="message">
   We are accepting new clients! If you have a project that you need help with, please send us an email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
 </p>

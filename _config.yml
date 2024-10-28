@@ -4,7 +4,7 @@ url: https://d5n5.com
 email: contact@d5n5.com
 # paginate: 1
 # paginate_path: "/page:num/"
-baseurl: "/"
+baseurl: ""
 permalink: pretty
 
 # Gems

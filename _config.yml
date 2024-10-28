@@ -1,15 +1,16 @@
 # Setup
-title: d5n5 Portfolio
+title: d5n5 Universal Apps
 url: https://localjo.github.io/d5n5-portfolio
-paginate: 1
-paginate_path: "/d5n5-portfolio/page:num/"
+email: contact@d5n5.com
+# paginate: 1
+# paginate_path: "/d5n5-portfolio/page:num/"
 baseurl: "/d5n5-portfolio"
 permalink: pretty
 
 # Gems
 plugins:
   - jekyll-gist
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-seo-tag
 
 # Optimize Jekyll
@@ -42,8 +43,12 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
-    url: /d5n5-porfolio/archive
 
-  - title: About
-    url: /d5n5-portfolio/about
+  - title: Services
+    url: /d5n5-portfolio/services
+
+  - title: Portfolio
+    url: /d5n5-portfolio/portfolio
+
+  - title: Work With Us
+    url: /d5n5-portfolio/contact

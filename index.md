@@ -3,7 +3,16 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
+{% capture about_content %}
+{% include_relative about.md %}
+{% endcapture %}
+
+{% assign content_parts = about_content | split: "---" %}
+{% assign main_content = content_parts | last %}
+
+{{ main_content | markdownify }}
+
+<!-- <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
     <h1 class="post-title">
@@ -19,9 +28,9 @@ title: Home
     {{ post.content }}
   </article>
   {% endfor %}
-</div>
+</div> -->
 
-<div class="pagination">
+<!-- <div class="pagination">
   {% if paginator.next_page %}
   <a
     class="pagination-item older"
@@ -39,4 +48,4 @@ title: Home
   {% else %}
   <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div> -->
